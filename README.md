@@ -1,0 +1,1 @@
+Esse projeto é focado na criação de um site cujo seu objetivo é servir de portifólio para trabalhos freelancer, demonstrando meu nível de habilidades em relação as linguagens de programação JavaScript, CSS3 e HTML5.
