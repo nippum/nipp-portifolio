@@ -138,15 +138,20 @@ body{
     margin: 7em 0em;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     border: 2px red solid;
 }
 .contact_area>h2{
     border: 2px red dotted;
 }
 .contact_area{
-    width: auto;
-    padding-right: 4em;
-
+    width: 50%;
+    padding: 2em;
+    padding-top: 0em;
+}
+.contact_area>h2{
+    margin: 2em 0em;
+    font-size: 3em;
 }
 .contact{
     display: flex;
@@ -156,14 +161,31 @@ body{
 .contact_content{
     border: 2px red dotted;
     width: 100%;
-    margin: 4em 4em;
+    position: relative;
+    margin: 5em 1em;
+}
+.contact_content>a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.5em 0.5em;
+    border-radius: 2em;
+    border: 2px red dotted;
+    position: absolute;
+    right: 0em;
 }
 .extra_addons{
     border: 2px red dotted;
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 40%;
 }
 .extra{
     border: 2px red dotted;
+    margin: 3em;
+}
+.extra_addons>hr{
+    width: 60%;
+    color: aquamarine;
+    margin: 0 auto;
 }
