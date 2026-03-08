@@ -135,7 +135,7 @@ body{
 /*CONTATOS & PREÇOS CSS*/
 
 #prices_contacts{
-    margin: 7em 0em;
+    margin: 7em 0em 3em 0em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -147,10 +147,9 @@ body{
 .contact_area{
     width: 50%;
     padding: 2em;
-    padding-top: 0em;
+    margin: 2em 0em;
 }
 .contact_area>h2{
-    margin: 2em 0em;
     font-size: 3em;
 }
 .contact{
@@ -182,10 +181,36 @@ body{
 }
 .extra{
     border: 2px red dotted;
-    margin: 3em;
+    margin: auto 4em;
 }
 .extra_addons>hr{
     width: 60%;
     color: aquamarine;
     margin: 0 auto;
+}
+
+/*PROJETOS CSS*/
+
+#projects_area{
+    display: flex;
+    flex-direction: column;
+    border: 2px red solid;
+    padding: 1em;
+}
+.projects_box{
+    justify-content: space-between;
+    border: 2px red dotted;
+    width: 100%;
+    position: relative;
+}
+.project_content{
+    border: 2px red dotted;
+    width: 50%;
+    margin: 1em 0.5em 1em 1em;
+}
+.project_support{
+    border: 2px red dotted;
+    width: 30%;
+    position: absolute;
+    right: 0;
 }
