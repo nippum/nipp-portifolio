@@ -1,4 +1,132 @@
+*{
+    margin: 0;
+}
 body{
     margin: 0 auto;
-    width: 800px;
+    width: 80%;
+}
+::selection{
+    color: blueviolet;
+    background-color: aqua;
+}
+:root{
+
+    /*Soft Pink Delight*/
+    --soft-blush: #ffe5ec;
+    --pastel-pink: #ffc2d1;
+    --cherry-blossom: #ffb3c6;
+    --cotton-candy: #ff8fab;
+    --petal-rouge: #fb6f92;
+
+    /*Cupcake Rosy Bliss*/
+    --pastel-petal: #d4afb9;
+    --old-rose: #ce9caa;
+    --veryold-rose: #ce7d93;
+    --blush-rose: #ce5273;
+}
+
+/*NAVEGAÇÃO CSS*/
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px red solid;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo_name{
+    font-size: 3em;
+    margin: 0.5em 0em;
+    border: 2px red dotted;
+    position: absolute;
+    left: 5.1em;
+}
+.logo_web{
+    width: 13%;
+    margin: 0.6em 0.5em;
+    height: auto;
+    border: 2px red dotted;
+}
+.base_list{
+    border: 2px red dotted;
+    margin: 1.4em;
+}
+.base_list, #contato{
+    display: flex;
+    flex-direction: row;
+}
+.base_list>a{
+    font-size: 0.9em;
+    text-decoration: none;
+    margin: 1.5em 0.5em;
+    color: black;
+    border-radius: 1em;
+    border: 2px red dotted;
+}
+#contato>a{
+    font-size: 0.9em;
+    background-color: black;
+    margin: 1em;
+    padding: 0.6em 2.3em;
+    border-radius: 1.3rem;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px red dotted;
+}
+
+/*APRESENTAÇÃO CSS*/
+#presentation{
+    width: 100%;
+    margin-bottom: 7em;
+    margin-top: 3em;
+    border: 2px red solid;
+}
+#presentation>h1{
+    width: 80%;
+    font-size: 4.7em;
+    border: 2px red dotted;
+}
+#presentation>h3{
+    width: 50%;
+    font-size: 1.5em;
+    border: 2px red dotted;
+    margin-top: 1em;
+    font-weight: 300;
+}
+
+/*MOTIVOS CSS*/
+#why-area{
+    display: grid;
+    grid-template-columns: 50% auto;
+    border: 2px red solid;
+    width: 100%;
+    margin-bottom: 7em;
+}
+.image_why{
+    width: 70%;
+    height: auto;
+    padding: 5em;
+    border: 2px red dotted;
+    margin: 1em 0em;
+}
+.box_text_why_area{
+    width: 100%;
+    padding: 0.5em 0em;
+    border: 2px red dotted;
+}
+.box_text_why_area>hr{
+    width: 60%;
+    color: aquamarine;
+    margin: 0 auto;
+}
+.content_why{
+    margin: 1.6em;
+    padding: 1em 5em;
+    border: 2px red dotted;
 }
